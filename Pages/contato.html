@@ -25,10 +25,10 @@
 
         </header>
         <main>  
-            <section aria-labelledby="Titulo-Contato">
+            <section aria-labelledby="Titulo-Contato" id="Conteiner-Contato">
                 <h1 id="Titulo-Contato">Fale Conosco</h1>
                 <p>Tem alguma dúvida? Entre em contato conosco!</p>
-                <form action="#" method="get" onsubmit="return false">
+                <form id="formContato" action="#" method="get" onsubmit="return false">
                 <br>
                     <label for="nomeContato">Nome Completo :</label>
                     <input id="nomeContato"type="text" name="nome" type="text" required>
@@ -38,7 +38,7 @@
                 <br>
                     <label for="mensagemContato">Digite sua mensagem aqui : </label>
                 <br>
-                    <textarea name="mensagem" id="mensagemContato" rows="5" placeholder="Digite sua mensagem aqui..." required></textarea>
+                    <textarea name="mensagem" id="mensagemContato" rows="5" minlength="10" placeholder="Digite sua mensagem aqui..." required></textarea>
                 <br>
                     <button type="submit">Enviar Mensagem</button>
                 </form>
@@ -50,7 +50,7 @@
 
         <footer> <!-- Rodapé do site -->
 
-            <p>© 2024 Edu-Tech. Todos os direitos reservados.</p>
+            <p>© 2026 Edu-Tech. Todos os direitos reservados.</p>
             <p><a href="contato.html">Contato</a>  Entre em contato.</p>
 
         </footer>
