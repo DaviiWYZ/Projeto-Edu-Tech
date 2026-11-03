@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html Lang="PT-BR">
+    <head>  
+        <title>Edu-Tech Formação em Tecnologia</title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>    
+
+    <body> 
+
+        <header> 
+
+            <div>   
+                <a href="index.html">Edu<span>Tech</span></a>
+            </div>
+
+            <nav>
+                <a href="../index.html">Início</a>
+                <a href="cursos.html">Cursos</a>
+                <a href="sobre.html">Sobre</a> 
+                <a href="contato.html">Contato</a>     
+                <a href="login.html">Login</a>   
+                <a href="cadastro.html">Cadastro</a>      
+            </nav>
+
+        </header>
+
+        <main>
+            <section aria-labelledby="titulo-cadastro">
+                <h1 id="titulo-cadastro">Cadastro - EduTech</h1>
+                <p>Crie sua conta (Interface Demonstrativa)</p>
+                <form id="formCadastro" onsubmit="return false">
+                    <label for="nomeCadastro">Nome :</label>
+                    <input id="nomeCadastro" name="nome" type="text" autocomplete="name" placeholder="Digite seu nome completo" required>
+                    <label for="emailCadastro">Email :</label>
+                    <input id="emailCadastro" name="email" type="email" autocomplete="email" placeholder="nome@exemplo.com" required>
+                    <label for="senhaCadastro" name="senha">Senha :</label>
+                    <input id="senhaCadastro" name="senha" type="password" minlength="8" autocomplete="new-password" placeholder="Digite sua senha" required>
+                    <label for="confirmarSenha" name="confirmarSenha">Confirmar sua senha</label>
+                    <input id="confirmarSenha" name="confirmarSenha" type="password" minlength="8" placeholder="Confirme sua senha" autocomplete="new-password" required>
+                    <button type="submit">Cadastrar</button>
+                </form>
+                <p>Já possui uma conta? <a href="login.html">Faça login</a></p>
+                <p>Está página ainda não vai criar sua conta.</p>
+                </section>
+        </main>
+        
+
+        <footer> 
+
+            <p>© 2024 Edu-Tech. Todos os direitos reservados.</p>
+            <p><a href="contato.html">Contato</a>  Entre em contato.</p>
+
+        </footer>
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
