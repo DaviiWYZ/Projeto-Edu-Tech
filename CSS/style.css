@@ -40,7 +40,7 @@ nav.menu {
     margin-top: 10px;
 }
 
-nav.menu {
+nav.menu a{
     color: white; 
     text-decoration: none; 
     margin: 0 15px; 
@@ -118,23 +118,30 @@ footer a {
 
 .sobre {
     padding: 30px 20px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .valores-lista {
-    list-style: none; padding: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .valores-lista li {
     padding: 6px 0;
+    font-size: 16px;
 }
 
-.curso {
+.cursos {
     padding: 15px; margin: 15px 0; border: 1px solid #ddd; border-radius: 8px;
 }
 
-.curso img {
+.cursos img {
     max-width: 100%; 
-    height: auto; 
+    height: 250px; 
     border-radius: 8px;
 }
 
