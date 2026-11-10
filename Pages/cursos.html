@@ -3,18 +3,18 @@
     <head>  <!-- Cabeça do Site - Configurações e metadados -->
         <title>Edu-Tech Formação em Tecnologia</title>
         <meta charset="UTF-8"> <!-- Permite acentos, cedilhas e caracteres especiais-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permite que o site seja responsivo em dispositivos móveis -->
-    </head>    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="../CSS/style.css">
 
     <body> <!-- Corpo do Site - Conteúdo visível -->
 
-        <header> <!--Cabeçalho do site-->
+        <header class="topo"> <!--Cabeçalho do site-->
 
-            <div>   
+            <div class="logo">   
                 <a href="../index.html">Edu<span>Tech</span></a>
             </div>
 
-            <nav>
+            <nav class="menu">
                 <a href="../index.html">Início</a>
                 <a href="cursos.html">Cursos</a>
                 <a href="sobre.html">Sobre</a> 
@@ -26,6 +26,40 @@
         </header>
 
         <!-- Conteudo da Pagina do Site-->
+
+        <main>
+              <!-- Seção dos cursos -->
+              <section>
+                    <h2>Nossos Cursos</h2>
+
+                    <!-- CARDS DOS CURSOS -->
+                     <article class="cursos">
+                        <img src="../Imagens/DesenvolvimentoWEB.png" alt="Desenvolvimento WEB">
+                        <h3>Desenvolvimento WEB</h3>
+                        <p>Aprenda HTML, CSS, JS e práticas modernas
+                            de desenvolvimento.
+                        </p>
+                        <strong>CH:</strong> 40h
+                     </article>
+
+                     <article class="cursos">
+                        <img src="../Imagens/InformáticaBásica.jpg" alt="Informática Básica">
+                        <h3>Informática Básica</h3>
+                        <p>Domine o uso do computador e aplicativos essenciais
+                        </p>
+                        <strong>CH:</strong> 30h
+                     </article>
+
+                     <article class="cursos">
+                        <img src="../Imagens/JogosDigitais.jpg" alt="Jogos Digitais">
+                        <h3>Jogos Digitais</h3>
+                        <p>Aprenda a desenvolver jogos digitais desde o design até a programação.
+                        </p>
+                        <strong>CH:</strong> 60h
+                     </article>
+              </section>
+            
+        </main>
 
         <footer> <!-- Rodapé do site -->
 

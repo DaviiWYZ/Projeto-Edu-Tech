@@ -3,18 +3,19 @@
     <head>  <!-- Cabeça do Site - Configurações e metadados -->
         <title>Edu-Tech Formação em Tecnologia</title>
         <meta charset="UTF-8"> <!-- Permite acentos, cedilhas e caracteres especiais-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permite que o site seja responsivo em dispositivos móveis -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="CSS/style.css">
     </head>    
 
     <body> <!-- Corpo do Site - Conteúdo visível -->
 
-        <header> <!--Cabeçalho do site-->
+        <header class="topo">
 
-            <div>   
+            <div class="logo">   
                 <a href="index.html">Edu<span>Tech</span></a>
             </div>
 
-            <nav>
+            <nav class="menu" >
                 <a href="index.html">Início</a>
                 <a href="pages/cursos.html">Cursos</a>
                 <a href="pages/sobre.html">Sobre</a> 
@@ -24,18 +25,45 @@
             </nav>
 
         </header>
-<!-- 
-        <form>  
-            <label for="email">Email:</label>
-            <input id="email" name="email" type="email" placeholder="nome@exemplo.com" required>
-        </form> -->
+       
+       <main>
+              <section class="hero">
+                        <div class="hero-content">
+                            <h1>Formação em Tecnologia para o mercado real</h1>
+                            <p>Aprenda desenvolvimento web, lógica e banco de dados com aulas práticas</p>
+                            <a href="pages/cursos.html" class="btn-primario">Ver Cursos</a>
+                            <a href="pages/contato.html" class="btn-secundario">Fale Conosco</a>
+                        </div>   
+              </section> 
+              
+              <section class="destaques">
+                    <div class="container">
+                        <h2>Por que estudar na EduTech?</h2>
+                        <div class="cards">
+                            <article class="card">
+                                <h3>Projetos Reais</h3>
+                                <p>Você desenvolve sites com base em situações profissionais</p>
+                            </article>
 
-        <!-- Conteudo da Pagina do Site-->
+                            <article class="card">
+                                <h3>Material Didático</h3>
+                                <p>Conteúdo e exercícios práticas</p>
+                            </article>
 
-        <footer> <!-- Rodapé do site -->
+                            <article class="card">
+                                <h3>Suporte do instrutor</h3>
+                                <p>Acompanhamento durante todo processo</p>
+                            </article>
+                        </div>
+                    </div>
+              </section> 
+
+        </main>
+
+        <footer class="rodape"> <!-- Rodapé do site -->
 
             <p>© 2026 Edu-Tech. Todos os direitos reservados.</p>
-            <p><a href="pages/contato.html">Contato</a>  Entre em contato.</p>
+            <p><a class="btn-secundario" href="pages/contato.html">Contato</a>  Entre em contato.</p>
 
         </footer>
 
